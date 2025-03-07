@@ -1,0 +1,358 @@
+
+    /* COLORES UTILIZADOS EN LA WEB:
+
+#e6e6e6 color de fondo toda la web
+
+#4d4d4d color tipografía, textos
+
+#4d4d4d color del footer
+ */
+
+/* HEADER**/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+ .barraSuperiorSuperior{
+    background-color: #6C6A6A;
+    text-align: left;  
+    font-family: Monserrat ; 
+    font-size: 16px;     
+    font-weight: 400;
+    color: #fff;
+    line-height: 19.5px;
+    padding-top: 20px;
+
+ }
+
+
+
+ .enlancesBarraSuperiorSuperior{
+    text-decoration: none !important;
+    color: #6C6A6A !important;
+ }
+
+
+ .dropdown-item:focus, .dropdown-item:hover{
+    color: #FF0000;
+    background-color: transparent !important;
+ }
+
+
+.barraSuperior{
+    font-family: Monserrat;      
+    font-size: 25px;
+
+}
+
+.barraSuperior:hover{
+    text-decoration:underline #212529;
+    text-decoration-thickness: 10px;
+}
+
+
+
+
+
+/** -- **/
+
+/**** INDEX ****/
+.seccion2Index{
+    background-color: #e6e6e6;
+    height: 74px;
+ }
+
+ /*******/
+
+.titulosSecciones{
+    font-family: CircularStd-Book;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.textoNosotros{
+    font-family:  CircularStd-Light;
+    font-size: 25px;
+}
+
+/****/
+
+/**/
+.textoServiciostitulo{
+    font-family: CircularStd-Medium;
+    font-size: 25px;
+}
+
+.textoServiciosContenido{
+    font-family: CircularStd-Bold;
+    font-size: 35px;
+}
+
+.textoServiciosContenidoClientesDestacados{
+    font-family: CircularStd-Medium;
+    font-size: 35px;
+}
+
+.fondoBlanco{
+    background-color: white;
+}
+/****/
+
+/*****/
+.textoContactoTitulo{
+    font-family: CircularStd-Bold; 
+    font-size: 35px;
+}
+
+.textoContacto{
+    font-family: CircularStd-Light; 
+    font-size: 20px;
+}
+
+.botonEnviar{
+    color: white;
+    background-color: #19b3ba;
+    width: 24%;
+    height: 34px;
+    font-size: 20px;
+    padding: 0px;
+    font-weight: bolder;
+    border: transparent;
+}
+
+/****/
+
+.textoSecundario{
+    font-family: CircularStd-Book;
+    letter-spacing: 0.15em;
+    word-spacing: 0.15em;
+    text-decoration-color: #4d4d4d ;
+}
+
+.anchoBarra{
+    height: 125PX !important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.botonesBarra{
+    margin-top: 40px;
+}
+
+
+.divs{
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.body{
+    background-color: #e6e6e6;
+}
+
+.segundoDiv{
+    background-color: #c3c1c1!important;
+}
+
+
+
+.quintoDiv{
+    background-color:  #dcd8d8;
+}
+.footer{
+    background-color: #28343f;
+}
+
+.textoBlanco{
+    font-family: CircularStd-Light;  
+    letter-spacing: 0.15em;
+    word-spacing: 0.15em;
+    color: #ffffff!important ;
+}
+.altoIcono{
+    height: 20px!important;
+}
+@font-face{
+    font-family: CircularStd-Medium;
+    src: url(CircularStd-Medium.otf);
+}
+
+@font-face{
+    font-family: CircularStd-Light;
+    src: url(CircularStd-Light.otf);
+}
+
+@font-face{
+    font-family: CircularStd-Black;
+    src: url(CircularStd-Black.otf);
+}
+
+@font-face{
+    font-family: CircularStd-Book;
+    src: url(CircularStd-Book.otf);
+}
+
+@font-face{
+    font-family: CircularStd-Bold;
+    src: url(CircularStd-Bold.otf);
+}
+
+.division{
+    color: #727980;
+    height: 8px !important;
+}
+
+
+.image{
+    position: relative;
+}
+
+.imageImg{
+    display:block;
+    width:100%;
+}
+
+.imageOverlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(226, 226, 226, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    font-family: CircularStd-Light;
+    transition: opacity 0.25s;
+}
+.imageOverlay:hover{
+    opacity: 1;
+}
+.navs{
+    padding-left: 100px!important;
+    padding-right: 100px!important;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:37px;
+    z-index:100;
+  }
+  
+  .whatsapp-icon {
+    margin-top:13px;
+  }
+
+  .whatsapp-icon:hover{
+    color:#FFF;
+  }
+
+  .whatsapp:hover {
+    color:#FFF;
+}
+
+.textoFooter{
+    font-family: CircularStd-Light;
+}
+
+.textoFooterContacto{
+    font-family: CircularStd-Light;
+    font-size: 12px;
+}
+.logoFooter{
+    width: 60% ;
+}
+
+
+/** PARA DESKTOP **/
+
+@media (max-width: 800px) {
+    .tituloTratamietos{
+        font-size: 18px;
+    }   
+  }
+
+  .navbar-brand{
+    margin-left: 50px;
+  }
+
+  @media (max-width: 800px) {
+  .imgBanner{
+    display: none;
+  }
+  .tratamientosLarge{
+    display: none;
+  }
+  .tercerDiv{ 
+    display: none !important;    
+  }
+
+   .tercerDivMobile{
+    background-color: #dcd8d8;
+   }
+
+   .divFooter{
+        display: none !important;
+   }
+   .logo-desktop{
+    display: none;
+}
+
+.visualizaEnMobile{
+    display: none;
+}
+   
+
+}
+/*******************/
+
+ /** PARA MOBILE ***/
+
+@media (min-width: 800px) {
+
+.visualizaEnDesktop{
+    display: none;
+}
+
+.imgBannerMobile{
+    display: none;
+}
+.tratamientosMobile{
+    display: none;
+}
+.logo-mobile{
+    display: none;
+}
+
+.tercerDiv{ 
+    background-color: #dcd8d8;  
+}
+
+.tercerDivMobile{    
+    display: none  !important;  
+}
+
+.divFooterMobile{
+    display: none;       
+}
+
+
+}
+
+
+
+
