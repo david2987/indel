@@ -1,5 +1,5 @@
 <div class="container" style="margin-top: 46px;margin-bottom:126px">
-    <div class="d-flex">
+    <div class="d-md-flex">
         <div class="mt-4 col-md-5 col-xs-12">
             <img src="<?= URL_HOST ?>Recursos/imagenes/logo.png" style='width:404.0080871582031px; height: 110.50809478759766px;'>            
         </div>
