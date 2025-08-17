@@ -3,7 +3,6 @@ include('constant.php');
 $seleccion = 1;
 ?>
 
-
 <?php  include('secciones/headerSuperior.php'); ?>
 <?php  include('secciones/navBar.php'); ?>
 <?php $texto = '¿Quienes Somos?'; ?>

@@ -1,13 +1,12 @@
 <div class="container-fluid" style="margin-top: 46px;">
     <div class="grid justify-content-center align-items-center" style="text-align: center;text-align-last: center;">
-        <div class="mt-3 col-md-12 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/MECANIZADOS CHAPAS 1.png">
-        </div>
-        <div class="col-md-12 col-xs-12  mt-3 " style="text-align: left;align-content: center;">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/MOLINARI.png">
+        <div class="mt-3 col-md-12 col-xs-12 " style="   text-align: -webkit-center;">
+            <a href="https://www.molinari.com.ar/">
+                <img src="<?= URL_HOST ?>Recursos/imagenes/MOLINARI 2.png" class="d-block w-25">
+            </a>
         </div>
     </div>
-    <div >
+    <div>
         <div class="tituloAireComprimido">
             EMPRESA CON 100 AÑOS DE TRAYECTORIA<br>
             EN EL MERCADO ARGENTINO
@@ -20,8 +19,9 @@
         Comercialización de Máquinas herramienta de marcas con liderazgo mundial.<br>
         Diseño de máquinas especiales y automatización. Dispositivos de fijación especiales.
     </div>
+
     <div class="text-center mb-5">
-        <img src="<?= URL_HOST ?>Recursos/imagenes/MAQUINAS HERRAMIENTAS LOGOS.png">
+        <img src="<?= URL_HOST ?>Recursos/imagenes/MAQUINARIAS 1.png">
     </div>
 </div>
 <div class="fondoCuadradoAutoelevadores w-100 text-center">

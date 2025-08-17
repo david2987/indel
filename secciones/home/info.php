@@ -1,13 +1,12 @@
 <div class="container" style="margin-top: 46px;margin-bottom:126px">
     <div class="d-flex">
-        <div class="mt-4 col-md-4 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/logo.png" style='width:404.0080871582031px; height: 110.50809478759766px;'>
-            
+        <div class="mt-4 col-md-5 col-xs-12">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/logo.png" style='width:404.0080871582031px; height: 110.50809478759766px;'>            
         </div>
-        <div class="col-md-8 col-xs-12 textInfoHome mt-4 ">
+        <div class="col-md-7 col-xs-12 textInfoHome mt-4 ">
             <p>MÁS DE<span class="textInfoHome50"> 50 AÑOS </span> </p>
             <p> ACOMPAÑANDO LOS PROYECTOS </p>
-            <p> EL CRECIMIENTO INDUSTRIAL.</p>
+            <p> Y EL CRECIMIENTO INDUSTRIAL DE LA REGIÓN.</p>
         </div>
     </div>
     <div class="d-grid textInfoHomeDetalle " >
@@ -24,7 +23,7 @@
             <span class="textInfoHomeDetalleBold"> brindamos soluciones especiales a medida.</span> Trabajamos en conjunto con nuestro
             clientes buscando la innovación en sus proyectos mediante la incorporación
             de las últimas tendencias tecnológicas para que puedan mejorar la calidad
-            y la productividad en los procesos de manufactura.
+            y la productividad.    
         </div>
     </div>
 </div>

@@ -1,11 +1,18 @@
 <div class="container-fluid" style="margin-top: 46px;">
-    <div class="grid justify-content-center align-items-center" style="text-align: center;text-align-last: center;">
-        <div class="mt-3 col-md-12 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/METROLOGIA 1.png">
+    <div class="d-flex justify-content-center align-items-center" style="text-align: center;text-align-last: center;">
+        <div class="mt-3 col-md-3 col-xs-12">
         </div>
-        <div class="col-md-12 col-xs-12  mt-3 " style="text-align: left;align-content: center;">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/METROLOGIA 2.png">
+        <div class="mt-3 col-md-3 col-xs-12">
+            <a href="https://www.dryada.com.ar/">
+                <img src="<?= URL_HOST ?>Recursos/imagenes/dryada.png">
+            </a>
+        </div>        
+        <div class="col-md-3 col-xs-12  mt-3 " style="text-align: right;align-content: center;">
+            <a href="https://www.amsarg.com.ar/">
+                <img src="<?= URL_HOST ?>Recursos/imagenes/ams.png">
+            </a>
         </div>
+        <div class="mt-3 col-md-3 col-xs-12"></div>
     </div>
     <div >
         <div class="tituloAireComprimido mt-5" >
@@ -17,7 +24,8 @@
     </div>
     <div class="mt-5 textoAutoelevadores" style="text-align: center;margin-bottom: 50px; ">
         En soluciones para la medición y control
-        de procesos productivos.
+        de procesos productivos.<br>
+        Especialistas en Scanner e Impresión 3D
     </div>   
 </div>
 <div  style="height: 370px; background: #F3F0F0;" class=" w-100 text-center">

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+body{
+   zoom: 67%;  /*Zoom no estándar, solo para navegadores compatibles */
+  /* transform: scale(0.9); /* Escala para todos los navegadores */
+  /* transition: transform 0.4s ease; Transición suave */
+}
+
 .float-wa{
   position:fixed;
   width:60px;
@@ -93,7 +99,7 @@
 
 .tresPuntosBanner{
 /* Group 94 */
-background: #FFFFFF;
+background: #000;
 border-radius: 50%;
 width: 25.92px;
 height: 25.92px;
@@ -103,7 +109,7 @@ height: 25.92px;
 .tresPuntosBanneNoSeleccionado{
   
   margin-top: 3px;
-  background: #FFFFFF;
+  background: #000;
   border-radius: 50%;
   width: 18.94px;
   height: 18.94px;
@@ -188,7 +194,7 @@ color: #6C6A6A;
 
 .fondoCuadradoAireComprimido{
   background-color: #F3F0F0;
-  height: 457px;
+  height: 407px;
 }
 
 .infoLineaDirectaAireComprimido{

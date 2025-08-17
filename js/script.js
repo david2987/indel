@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    $('#carouselExampleCaptions').carousel({
+  interval: 500
+})
     $(".bannerProductosNoSeleccionado").hover(function () {
         $(this).css("background-color", "#FE1E1E");  
         $(this).css("color", "#fff");        
