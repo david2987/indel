@@ -1,5 +1,5 @@
 <div class="container-fluid" style="margin-top: 46px;">
-    <div class="d-flex" style="text-align: center;">
+    <div class="d-md-flex" style="text-align: center;">
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="mt-3 col-md-6 col-xs-12">
@@ -9,7 +9,7 @@
         </div>
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
-        <div class="col-md-5 col-xs-5  mt-3 " style="text-align: left;align-content: center;">
+        <div class="col-md-5 col-xs-12  mt-3 text-xs-center text-md-start" >
             <a href="https://www.dne.global/ssa-en/">
                 <img src="<?= URL_HOST ?>Recursos/imagenes/onelaser.png" style="height:150px">
             </a>

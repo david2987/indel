@@ -16,17 +16,25 @@
 </head>
 <div style=" background-color: #6C6A6A;color:#fff">
     <div class="w-100 d-flex container p-3" style="height: 69px; " >
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div>(0341) 4371007 | (0341) 156913541</div>        
         </div>
         <div class="col-md-5">
             <div>Constitución N° 850 – Rosario – Santa Fe. - Rep. Argentina</div>
         </div>
-        <div class="col-md-4 text-center">
-            <a href="https://www.facebook.com/INDEL" class="text-white"><i class="fab fa-facebook-f fa-xl"></i></a>
-            <a href="https://www.instagram.com/indelautoelevadores/" class="text-white"><i class="fab fa-instagram fa-xl"></i></a>
-            <a href="https://twitter.com/Indelmecanica/" class="text-white"><i class="fab fa-twitter fa-xl"></i></a>
-            <a href="https://wa.me/+549341156913541" class="text-white"><i class="fab fa-whatsapp fa-xl"></i></a>
+        <div class="col-md-4 mt-3 d-flex text-center">
+            <div>
+                <a href="https://www.facebook.com/INDEL" class="text-white"><i class="ms-2 fab fa-facebook-f fa-xl"></i></a>
+            </div>
+            <div>                
+                <a href="https://www.instagram.com/indelautoelevadores/" class="text-white"><i class="ms-2 fab fa-instagram fa-xl"></i></a>
+            </div>
+            <div>
+                <a href="https://twitter.com/Indelmecanica/" class="text-white"><i class=" ms-2  fab fa-twitter fa-xl"></i></a>
+            </div>
+            <div>
+                <a href="https://wa.me/+549341156913541" class="text-white"><i class="ms-2 fab fa-whatsapp fa-xl"></i></a>
+            </div>
         </div>
     </div>
 </div>

@@ -44,7 +44,7 @@
         </div>
 
         <div class="col-md-2 text-center  mt-5 ">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/clientes/agrometal.png" class="w-100 ">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/clientes/agrometal.png" class="w-xs-100 w-md-75 ">
         </div>
 
     </div>

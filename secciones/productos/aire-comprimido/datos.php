@@ -1,12 +1,12 @@
 <div class="container-fluid" style="margin-top: 46px;">
-    <div class="d-flex" style="text-align: center;">
+    <div class="d-md-flex" style="text-align: center;">
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="mt-3 col-md-6 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/AIRE COMPRIMIDO 1.png">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/AIRE COMPRIMIDO 1.png" class="d-block w-100" >
         </div>
         <div class="col-md-5 col-xs-5  mt-3 " style="text-align: left;">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/AIRE COMPRIMIDO 2.png">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/AIRE COMPRIMIDO 2.png" class="d-block w-100">
         </div>
     </div>
     <div class="mt-5">
@@ -35,10 +35,10 @@
     <div class="tituloAireComprimido mb-4">
         SERVICIO TECNICO Y REPUESTOS ORIGINALES KAESER COMPRESORES     
     </div>
-    <div class="d-flex" style="margin-bottom: 100px;" >
-        <div class="col-md-4" style="text-align: right;" ><img src="<?= URL_HOST ?>Recursos/imagenes/productos/check-kaiser-services.png"></div>
-        <div class="col-md-3" style="text-align: center"><img src="<?= URL_HOST ?>Recursos/imagenes/productos/equipos1.png"></div>
-        <div class="col-md-4"  style="text-align: left;"><img src="<?= URL_HOST ?>Recursos/imagenes/productos/equipos2.png"></div>
+    <div class="d-md-flex" style="margin-bottom: 100px;" >
+        <div class="col-md-4 " style="text-align: center;"  ><img src="<?= URL_HOST ?>Recursos/imagenes/productos/check-kaiser-services.png"></div>
+        <div class="col-md-3 col-sm-12" style="text-align: center"><img src="<?= URL_HOST ?>Recursos/imagenes/productos/equipos1.png"></div>
+        <div class="col-md-4 col-sm-12"  style="text-align: center;"><img src="<?= URL_HOST ?>Recursos/imagenes/productos/equipos2.png"></div>
     </div>
     
 </div>

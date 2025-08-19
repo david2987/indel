@@ -21,7 +21,7 @@
     </div>
 
     <div class="text-center mb-5">
-        <img src="<?= URL_HOST ?>Recursos/imagenes/MAQUINARIAS 1.png">
+        <img src="<?= URL_HOST ?>Recursos/imagenes/MAQUINARIAS 1.png" class="d-block w-100">
     </div>
 </div>
 <div class="fondoCuadradoAutoelevadores w-100 text-center">

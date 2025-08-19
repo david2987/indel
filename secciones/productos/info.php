@@ -8,7 +8,7 @@
 
         foreach ($titulos as  $titulo) { ?>
             <div class="col-md-3 text-center mt-5" style="justify-items: center;">
-                <a href="<?= URL_HOST . $enlaces[$i] ?>" style="text-decoration: none;" class="seleccionarProducto" >
+                <a href="<?= URL_HOST . $enlaces[$i] ?>" style="text-decoration: none;text-align: -webkit-center;" class="seleccionarProducto" >
                     <div class="bannerProductosNoSeleccionado">
                         <span class="tituloBannerProductos"> <?= $titulo ?></span>
                     </div>

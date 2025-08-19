@@ -2,7 +2,7 @@
     <div class="d-flex justify-content-center align-items-center" style="text-align: center;text-align-last: center;justify-items: center;">        
         <div class="col-md-4 col-xs-12  mt-1 " style="text-align: center;align-content: center;justify-items: center;">
             <a href=" https://www.gottert.com.ar/es" style="text-align: -webkit-center;">
-                <img src="<?= URL_HOST ?>Recursos/imagenes/gottert.png" class="d-block w-75"  >
+                <img src="<?= URL_HOST ?>Recursos/imagenes/gottert.png" class="d-block w-100"  >
             </a>
         </div>
     </div>
@@ -33,16 +33,19 @@
         </div>
     </div>
 </div>
+<div class="text-center mt-2">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/Barra-Inferior.png">
+        </div>
 
 <div class="container-fluid" style="margin-top: 46px;">
     <div class="d-flex justify-content-center align-items-center" style="text-align: center;text-align-last: center;justify-items: center;">        
         <div class="col-md-4 col-xs-12  mt-1 " style="text-align: center;align-content: center;justify-items: center;">
             <a href="https://www.infesa.com.ar/" style="text-align: -webkit-center;">
-                <img src="<?= URL_HOST ?>Recursos/imagenes/infesa.png" class="d-block w-75"  >
+                <img src="<?= URL_HOST ?>Recursos/imagenes/infesa.png" class="d-block w-xs-100 w-md-75"  >
             </a>
         </div>
          <div class="col-md-4 col-xs-12  mt-1 " style="text-align: center;align-content: center;justify-items: center;">            
-            <img src="<?= URL_HOST ?>Recursos/imagenes/infesa2.png" class="d-block w-75"  >            
+            <img src="<?= URL_HOST ?>Recursos/imagenes/infesa2.png" class="d-block w-xs-100 w-md-75"  >            
         </div>
     </div>
     <div >
