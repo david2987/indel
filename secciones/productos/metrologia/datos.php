@@ -38,11 +38,15 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            amsarg.com.ar
+            <a href="amsarg.com.ar">
+                amsarg.com.ar
+            </a>
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            dryada.com.ar
+           <a href=" dryada.com.ar">
+             dryada.com.ar
+           </a>
         </div>
     </div>
 

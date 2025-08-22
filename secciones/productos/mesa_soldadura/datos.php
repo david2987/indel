@@ -14,8 +14,9 @@
         </div>
     </div>
     <div class="mt-5 textoAutoelevadores" style="text-align: center;margin-bottom: 50px; ">
-    En soluciones para la medición y control<BR>
-    de procesos productivos.
+              Mesas y sistemas de sujeción para soldadura, fabricadas por el N°1 mundial. Ideal para series cortas y prototipos.
+              <br> Ahorre tiempo con una mesa de soldadura de Siegmund, fabricadas en Alemania.
+
     </div>   
     <div class="d-flex justify-content-center align-items-center" style="text-align: center;text-align-last: center;margin-bottom:100px">
         <div class="mt-3 col-md-2 col-xs-12">
@@ -36,11 +37,17 @@
             CONTACTOS
         </div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            Haga su consulta: (341) 6 913541
+            Haga su consulta: (341 308 5345)  <br>   
+            <a href="mailto:mesasdesoldadura@indelsrl.com.ar">
+                mesasdesoldadura@indelsrl.com.ar
+            </a> 
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            siegmund.com.ar
+            
+            <a href="siegmund.com.ar">
+                siegmund.com.ar
+            </a>
         </div>      
     </div>
 

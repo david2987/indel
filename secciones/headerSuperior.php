@@ -23,15 +23,15 @@
             <div>Constitución N° 850 – Rosario – Santa Fe. - Rep. Argentina</div>
         </div>
         <div class="col-md-4 mt-3 d-flex text-center">
-            <div>
+            <!-- <div>
                 <a href="https://www.facebook.com/INDEL" class="text-white"><i class="ms-2 fab fa-facebook-f fa-xl"></i></a>
-            </div>
-            <div>                
+            </div> -->
+            <!-- <div>                
                 <a href="https://www.instagram.com/indelautoelevadores/" class="text-white"><i class="ms-2 fab fa-instagram fa-xl"></i></a>
-            </div>
-            <div>
+            </div> -->
+            <!-- <div>
                 <a href="https://twitter.com/Indelmecanica/" class="text-white"><i class=" ms-2  fab fa-twitter fa-xl"></i></a>
-            </div>
+            </div> -->
             <div>
                 <a href="https://wa.me/+549341156913541" class="text-white"><i class="ms-2 fab fa-whatsapp fa-xl"></i></a>
             </div>

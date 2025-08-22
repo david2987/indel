@@ -51,7 +51,9 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-5">
-            serviciotecnico@indelsrl.com.ar
+            <a href="serviciotecnico@indelsrl.com.ar" >
+                serviciotecnico@indelsrl.com.ar
+            </a>
         </div>
         <div class="lineaDivisionAireComprimido mt-5"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">

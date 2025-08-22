@@ -45,7 +45,9 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            ingytec.com
+            <a href="ingytec.com">
+                ingytec.com
+            </a>
         </div>
     </div>
 

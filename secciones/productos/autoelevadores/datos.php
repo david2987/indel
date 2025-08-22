@@ -45,7 +45,13 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            autoelevadoresheli.com.ar
+            <a href="autoelevadoresheli.com.ar">
+                autoelevadoresheli.com.ar
+            </a> 
+            <br>
+            <a href="ventas.heli@indelsrl.com.ar">
+                ventas.heli@indelsrl.com.ar
+            </a> 
         </div>
     </div>
 

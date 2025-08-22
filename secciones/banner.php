@@ -5,7 +5,7 @@
     <div class="carousel-item active">
       <!-- Desktop -->
       <div class="imagenBannerDesk d-none d-md-block">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner web01-final.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner web02-final.jpg" 
              class="d-block w-100 img-fluid" alt="Banner escritorio">
       </div>
       <!-- Mobile -->
@@ -24,7 +24,7 @@
       </div>
       <!-- Mobile -->
       <div class="imagenBannerMobile d-block d-md-none">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner mobile01.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner mobile02.jpg" 
              class="d-block w-100 img-fluid" alt="Banner mobile">
       </div>
     </div>

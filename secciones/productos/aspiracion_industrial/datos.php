@@ -31,7 +31,9 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            infesa.com.ar
+            <a href="infesa.com.ar">
+                infesa.com.ar
+            </a>
         </div>      
     </div>
 

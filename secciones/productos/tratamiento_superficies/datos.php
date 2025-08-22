@@ -16,8 +16,8 @@
         </div>
     </div>
     <div class="mt-5 textoAutoelevadores" style="text-align: center;margin-bottom: 50px; ">
-    Para el tratamiento de superficies, movimiento de materiales,<br>
-    industria de la madera y equipos especiales.
+   Empresa líder en soluciones en equipamientos para el tratamiento de superficies,
+   <br> Pintura en Polvo – Cortina de agua – Combinada pintura y secado. Portones automáticos.
     </div> 
 </div>
 <div class="container"  style="margin-bottom: 100px;" >
@@ -72,11 +72,15 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            gottert.com.ar/es
+            <a href="gottert.com.ar/es">
+                gottert.com.ar/es
+            </a>
         </div>    
           <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            infesa.com.ar
+            <a href="infesa.com.ar">
+                infesa.com.ar
+            </a>
         </div>      
     </div>
 
