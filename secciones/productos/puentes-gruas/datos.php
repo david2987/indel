@@ -2,12 +2,14 @@
     <div class="d-flex" style="text-align: center;">
 
         <div class="mt-3 col-md-6 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/GH.png" style="height:150px">
+            <a href="https://www.ghcranes.com/es/" target="_blank">
+                <img src="<?= URL_HOST ?>Recursos/imagenes/GH.png" style="height:150px">
+            </a>
         </div>
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="col-md-5 col-xs-5  mt-3 " style="text-align: left;align-content: center;">
-            <a href="https://www.ingytec.com/">
+            <a href="https://www.ingytec.com/" target="_blank" >
                 <img src="<?= URL_HOST ?>Recursos/imagenes/INGYTEC 2 .png" style="height:150px">
             </a>
         </div>
@@ -45,7 +47,7 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="ingytec.com">
+            <a href="https://ingytec.com" target="_blank">
                 ingytec.com
             </a>
         </div>

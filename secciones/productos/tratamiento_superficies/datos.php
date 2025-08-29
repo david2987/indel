@@ -72,13 +72,13 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="gottert.com.ar/es">
+            <a href="https://gottert.com.ar/es" target="_blank" >
                 gottert.com.ar/es
             </a>
         </div>    
           <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="infesa.com.ar">
+            <a href="https://infesa.com.ar"  target="_blank">
                 infesa.com.ar
             </a>
         </div>      
@@ -89,8 +89,8 @@
 <div class="container" style="justify-items: center; margin-top: -30px; ">
     <div class="rectanguloAutoelevadoresRojo" style="align-content: center;">
         <div class="textoRectanguloRojoAutoelevadores">
-            HAGA CLICK Y CONOZCA NUESTRA REPRESENTADA<BR>
-            PARA AMPLIAR INFORMACIÓN  
+           HAGA CLICK Y CONOZCA NUESTRA REPRESENTADA<BR>
+            PARA AMPLIAR INFORMACIÓN
         </div>
     </div>
 </div>

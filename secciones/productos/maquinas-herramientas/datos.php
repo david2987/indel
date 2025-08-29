@@ -34,7 +34,7 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="https://www.molinari.com.ar/">
+            <a href="https://www.molinari.com.ar/" target="_blank">
                 www.molinari.com.ar
             </a>
         </div>

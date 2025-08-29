@@ -3,12 +3,12 @@
         <div class="mt-3 col-md-3 col-xs-12">
         </div>
         <div class="mt-3 col-md-3 col-xs-12">
-            <a href="https://www.dryada.com.ar/">
+            <a href="https://www.dryada.com.ar/" target="_blank">
                 <img src="<?= URL_HOST ?>Recursos/imagenes/dryada.png">
             </a>
         </div>        
         <div class="col-md-3 col-xs-12  mt-3 " style="text-align: right;align-content: center;">
-            <a href="https://www.amsarg.com.ar/">
+            <a href="https://www.amsarg.com.ar/" target="_blank">
                 <img src="<?= URL_HOST ?>Recursos/imagenes/ams.png">
             </a>
         </div>
@@ -38,13 +38,13 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="amsarg.com.ar">
+            <a href="https://amsarg.com.ar" target="_blank">
                 amsarg.com.ar
             </a>
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-           <a href=" dryada.com.ar">
+           <a href="https://dryada.com.ar" target="_blank">
              dryada.com.ar
            </a>
         </div>

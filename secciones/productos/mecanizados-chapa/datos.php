@@ -3,14 +3,14 @@
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="mt-3 col-md-6 col-xs-12">
-            <a href="https://www.bystronic.com/bra/es">
+            <a href="https://www.bystronic.com/bra/es" target="_blank">
                 <img src="<?= URL_HOST ?>Recursos/imagenes/bysotronic.png" style="height:150px">
             </a>
         </div>
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="col-md-5 col-xs-12  mt-3 text-xs-center text-md-start">
-            <a href="https://www.dne.global/ssa-en/">
+            <a href="https://www.dne.global/ssa-en/" target="_blank">
                 <img src="<?= URL_HOST ?>Recursos/imagenes/onelaser.png" style="height:150px">
             </a>
         </div>
@@ -55,10 +55,10 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="https://www.dne.global/">
+            <a href="https://www.dne.global/" target="_blank">
                 www.dne.global
             </a><br>
-            <a href="https://www.bystronic.com/bra/es">
+            <a href="https://www.bystronic.com/bra/es" target="_blank">
                 www.bystronic.com/bra/es
             </a>
         </div>
@@ -67,7 +67,7 @@
 </div>
 
 <div class="container" style="justify-items: center; margin-top: -30px; ">
-    <div class="rectanguloAutoelevadoresRojo" style="align-content: center;">
+    <div class="rectanguloAutoelevadoresRojo" style="align-content: center;">    
         <div class="textoRectanguloRojoAutoelevadores">
             HAGA CLICK Y CONOZCA NUESTRA REPRESENTADA<BR>
             PARA AMPLIAR INFORMACIÓN  

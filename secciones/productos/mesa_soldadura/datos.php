@@ -1,6 +1,6 @@
 <div class="container-fluid" style="margin-top: 46px;">
     <div class="col-md-12 col-xs-12  mt-4 mb-5" style="text-align: center;align-content: center;">
-        <a href=" https://www.siegmund.com/ar">
+        <a href=" https://www.siegmund.com/ar" target="_blank">
             <img src="<?= URL_HOST ?>Recursos/imagenes/SIEGMUND.png">
         </a>
         </div>
@@ -45,7 +45,7 @@
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
             
-            <a href="siegmund.com.ar">
+            <a href="https://www.siegmund.com/ar" target="_blank">
                 siegmund.com.ar
             </a>
         </div>      
@@ -54,11 +54,11 @@
 </div>
 
 <div class="container" style="justify-items: center; margin-top: -30px; ">
-    <div class="rectanguloAutoelevadoresRojo" style="align-content: center;">
+    <div class="rectanguloAutoelevadoresRojo" style="align-content: center;">         
         <div class="textoRectanguloRojoAutoelevadores">
             HAGA CLICK Y CONOZCA NUESTRA REPRESENTADA<BR>
             PARA AMPLIAR INFORMACIÓN  
-        </div>
+        </div>         
     </div>
 </div>
 <div style="margin-top: 50px;">

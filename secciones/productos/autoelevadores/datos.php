@@ -3,7 +3,9 @@
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
         <div class="mt-3 col-md-5 col-xs-12">
-            <img src="<?= URL_HOST ?>Recursos/imagenes/helix.png">
+            <a href="https://heli.com.ar/" target="_blank">
+                <img src="<?= URL_HOST ?>Recursos/imagenes/helix.png">
+            </a>
         </div>
         <div class="mt-3 col-md-1 col-xs-12">
         </div>
@@ -45,11 +47,11 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="autoelevadoresheli.com.ar">
+            <a href="https://autoelevadoresheli.com.ar" target="_blank">
                 autoelevadoresheli.com.ar
             </a> 
             <br>
-            <a href="ventas.heli@indelsrl.com.ar">
+            <a href="mailto:ventas.heli@indelsrl.com.ar">
                 ventas.heli@indelsrl.com.ar
             </a> 
         </div>
