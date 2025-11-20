@@ -31,16 +31,19 @@
         </div>
     </div>
 </div>
-<div  style="height: 286px; background: #F3F0F0;" class=" w-100 text-center">
+<div  style="height: 316px; background: #F3F0F0;" class=" w-100 text-center">
     <div class="grid justify-content-center" style="align-content: center;justify-items: center;">
         <div class=" col-md-12 rectanguloAireComprimido mt-4 contactoAutolevadores">
             CONTACTOS
         </div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            Haga su consulta: (341 308 5345)  <br>   
+            Haga su consulta: (341 308 5345) - (0341) 156913541  <br>   
             <a href="mailto:mesasdesoldadura@indelsrl.com.ar">
                 mesasdesoldadura@indelsrl.com.ar
-            </a> 
+            </a><br>
+             <a href="mailto:comercial@indelsrl.com.ar">
+                comercial@indelsrl.com.ar
+            </a>            
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
@@ -48,6 +51,7 @@
             <a href="https://www.siegmund.com/ar" target="_blank">
                 siegmund.com.ar
             </a>
+            <br>
         </div>      
     </div>
 

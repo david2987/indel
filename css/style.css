@@ -41,6 +41,34 @@ a{
     animation-timing-function: step-start; /* Opcional: Hace que el cambio sea instantáneo (encendido/apagado) */
 }
 
+.caja-alerta {
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: inline-block; /* Para que el borde se ajuste al texto */
+    margin-bottom: 10px;
+    
+    /* Configuración del borde base */
+    border: 3px solid red; 
+    
+    /* Aquí aplicamos la animación definida arriba */
+    /* Nombre | Duración | Tipo de repetición */
+    animation: parpadeo-borde 1s infinite;
+  }
+
+  /* 1. Definimos la animación */
+  @keyframes parpadeo-borde {
+    0% {
+      border-color:#ff0000;
+    }
+    50% {
+      border-color: transparent; /* Se vuelve invisible a la mitad */
+    }
+    100% {
+      border-color:#ff0000;
+    }
+  }
+
 /* DESKTOP PAGE */
 @media (min-width: 992px) {      
       .barraNavegacion {
@@ -382,7 +410,7 @@ color: #FFFFFF;
   .seccionShowRoom{
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 22px;
     line-height: 34.13px;
     letter-spacing: 0%;
     color: #6C6A6A;
@@ -391,7 +419,7 @@ color: #FFFFFF;
   .seccionFooter{
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 36.57px;
     letter-spacing: 0%;
     color: #6C6A6A; 

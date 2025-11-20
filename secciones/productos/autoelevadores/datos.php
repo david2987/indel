@@ -75,7 +75,7 @@
             CONTACTOS
         </div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            Haga su consulta: (341) 6 913541
+            Haga su consulta: (341) 6 913541 
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">

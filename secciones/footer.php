@@ -4,18 +4,16 @@
             <div class="mt-5">
                 <img src="<?= URL_HOST ?>/Recursos/imagenes/Logo-footer.png" style='height: 97px;'>
             </div>
-            <div class="seccionShowRoom mt-4">
-                Show Room,<br>
-                Administración<br>
-                y Ventas:<br>
+            <div class="seccionShowRoom mt-2">
+                Show Room, Administración y Ventas:
             </div>
-            <div class="seccionFooter mt-4">
-                Constitución N° 850 – Rosario –<br> Santa Fe .  - Rep. Argentina
+            <div class="seccionFooter mt-2">
+                Constitución N° 850 – Rosario – Santa Fe  - Rep. Argentina
             </div>
-            <div style="border: 1px solid #FE1E1E ;width:70%" class="mt-2"></div>
-            <div class="seccionFooter mt-4">
-                <i class="fa-solid fa-phone"></i>(0341) 4371007<br>
-                <i class="fa-solid fa-mobile"></i>(0341) 156913541
+            <div style="border: 1px solid #FE1E1E ;width:70%" ></div>
+            <div class="seccionFooter mt-2 d-flex gap-2">
+                <i class="fa-solid fa-phone mt-2"></i>(0341) 4371007<br>
+                <i class="fa-solid fa-mobile mt-2"></i>(0341) 156913541
             </div>
             <div style="border: 1px solid #FE1E1E ;width:70%" class="mt-2"></div>
             <div class="seccionFooter mt-2">
@@ -32,7 +30,7 @@
         </div>
         
     </div>
-    <div style="height: 50px;" >
+    <div style="height: 10px;" >
                 &nbsp;
         </div>
 </div>

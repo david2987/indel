@@ -16,10 +16,10 @@ $(document).ready(function() {
         }
         
         // Validar nombre empresa
-        if (!$('#nombreEmpresa').val().trim()) {
-            $('#errorNombreEmpresa').text('* Este campo es requerido').addClass('text-danger');
-            isValid = false;
-        }
+        // if (!$('#nombreEmpresa').val().trim()) {
+        //     $('#errorNombreEmpresa').text('* Este campo es requerido').addClass('text-danger');
+        //     isValid = false;
+        // }
         
         // Validar celular
         var celular = $('#celular').val().trim();
@@ -32,14 +32,14 @@ $(document).ready(function() {
         }
         
         // Validar email
-        var email = $('#email').val().trim();
-        if (!email) {
-            $('#errorEmail').text('* Este campo es requerido').addClass('text-danger');
-            isValid = false;
-        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-            $('#errorEmail').text('* Ingrese un email válido').addClass('text-danger');
-            isValid = false;
-        }
+        // var email = $('#email').val().trim();
+        // if (!email) {
+        //     $('#errorEmail').text('* Este campo es requerido').addClass('text-danger');
+        //     isValid = false;
+        // } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        //     $('#errorEmail').text('* Ingrese un email válido').addClass('text-danger');
+        //     isValid = false;
+        // }
         
         // Validar mensaje
         if (!$('#mensaje').val().trim()) {

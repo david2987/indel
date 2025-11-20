@@ -12,8 +12,8 @@
                         <div class="error-message" id="errorNombreCliente"></div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="nombreEmpresa" class="labelFormulario">Nombre de la Empresa <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control inputFormulario" id="nombreEmpresa" name="nombreEmpresa" required>
+                        <label for="nombreEmpresa" class="labelFormulario">Nombre de la Empresa <span class="text-danger"></span></label>
+                        <input type="text" class="form-control inputFormulario" id="nombreEmpresa" name="nombreEmpresa" >
                         <div class="error-message" id="errorNombreEmpresa"></div>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                         <div class="error-message" id="errorCelular"></div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="email" class="labelFormulario">Email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control inputFormulario" id="email" name="email" required>
+                        <label for="email" class="labelFormulario">Email <span class="text-danger"></span></label>
+                        <input type="email" class="form-control inputFormulario" id="email" name="email" >
                         <div class="error-message" id="errorEmail"></div>
                     </div>
                 </div>
