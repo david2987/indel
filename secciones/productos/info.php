@@ -2,7 +2,7 @@
     <div class="row">
         <?php
         $titulos = array(" AIRE COMPRIMIDO", "AUTOELEVADORES", "MECANIZADO DE CHAPA", "MAQUINAS HERRAMIENTAS", "METROLOGÍA", "MESAS SOLDADURA", "PUENTES GRÚA", "PINTURA - ASPIRACIÓN");
-        $imagenes = array("Aire Comprimido Banner.png", "Autolevadores Banner .png", "MECANIZADO DE CHAPA Banner.png", "MAQUINAS HERRAMIENTAS Banner.png", "METROLOGÍA Banner.png", "MESAS SOLDADURA Banner.png", "PUENTES GRÚA Banner.png", "TRATAM DE SUPERFICIES Banner.png");
+        $imagenes = array("Aire Comprimido Banner.png", "Autolevadores Banner .png", "MECANIZADO DE CHAPA Banner.png", "MAQUINAS HERRAMIENTAS Banner.png", "METROLOGIA-Banner.png", "MESAS SOLDADURA Banner.png", "PUENTESGRUA-Banner.png", "TRATAM DE SUPERFICIES Banner.png");
         $enlaces = array("aireComprimido.php", "autoelevadores.php", "mecanizadosChapa.php", "maquinasHerramientas.php", "metrologia.php", "mesasSoldadura.php", "puntesGruas.php", "tratamientoSuperficies.php");
         $i = 0;
 

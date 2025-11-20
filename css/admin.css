@@ -1,0 +1,102 @@
+/* Estilos para el panel de administración */
+
+body {
+    background-color: #f5f5f5;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #FE1E1E;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.card-header h5 {
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.table {
+    background-color: #FFFFFF;
+}
+
+.table thead {
+    background-color: #F3F0F0;
+}
+
+.table th {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #6C6A6A;
+    border-bottom: 2px solid #FE1E1E;
+}
+
+.table td {
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+}
+
+.btn-primary {
+    background-color: #FE1E1E;
+    border-color: #FE1E1E;
+}
+
+.btn-primary:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
+
+.btn-warning {
+    background-color: #FCB900;
+    border-color: #FCB900;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.modal-header {
+    background-color: #FE1E1E;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+.modal-title {
+    color: #FFFFFF;
+}
+
+.form-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #6C6A6A;
+}
+
+.form-control:focus {
+    border-color: #FE1E1E;
+    box-shadow: 0 0 0 0.2rem rgba(254, 30, 30, 0.25);
+}
+
+.badge {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.img-thumbnail {
+    border: 2px solid #D9D9D9;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+

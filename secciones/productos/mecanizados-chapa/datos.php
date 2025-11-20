@@ -27,7 +27,7 @@
     <div class="mt-5 textoAutoelevadores" style="text-align: center;margin-bottom: 70px; ">
         Máquinas -<br>
         herramienta para mecanizado de chapa<br>
-        - Plegadoras<br>
+        - Plegadoras - Soldadura Láser<br>
     </div>
     <div class="d-flex justify-content-center align-items-center" style="
      text-align: center;

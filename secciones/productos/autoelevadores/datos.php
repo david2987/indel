@@ -1,20 +1,54 @@
 <div class="container-fluid" style="margin-top: 46px;">
-    <div class="d-flex" style="text-align: center;">
-        <div class="mt-3 col-md-1 col-xs-12">
-        </div>
-        <div class="mt-3 col-md-5 col-xs-12">
-            <a href="https://heli.com.ar/" target="_blank">
-                <img src="<?= URL_HOST ?>Recursos/imagenes/helix.png">
-            </a>
-        </div>
-        <div class="mt-3 col-md-1 col-xs-12">
-        </div>
-        <div class="col-md-5 col-xs-5  mt-3 " style="text-align: left;align-content: center;">
-            <a href="https://autoelevadoresheli.com.ar/" target="_blank" >
-                <img src="<?= URL_HOST ?>Recursos/imagenes/AUTOELEVADORES 2 1.png">
-            </a>
+    <!-- Logo OVNISA en la parte superior central -->
+    <div class="d-flex justify-content-center mb-4">
+        <a href="https://www.ovnisa.com/" target="_blank">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/ovnisa.png" class="img-fluid logo-ovnisa">
+        </a>
+    </div>
+    
+    <!-- Logos MIMA y JIALIFT debajo de OVNISA -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <!-- MIMA AUTOELEVADORES - izquierda -->
+            <div class="mt-4 col-md-4 col-sm-6 text-center mb-3">
+                <a href="https://www.mimaargentina.com.ar/" target="_blank">
+                    <img src="<?= URL_HOST ?>Recursos/imagenes/mima.png" class="img-fluid logo-mima">
+                </a>
+            </div>
+            
+            <!-- JIALIFT MATERIALS HANDLING - derecha -->
+            <div class="col-md-4 col-sm-6 text-center mb-3">
+                <a href="https://spanish.jialiftforklift.com/" target="_blank">
+                    <img src="<?= URL_HOST ?>Recursos/imagenes/jialift.jpg" class="img-fluid logo-jialift">
+                </a>
+            </div>
         </div>
     </div>
+    
+    <!-- Imagen principal de montacargas -->
+    <div class="container mt-4">
+        <div class="d-flex justify-content-center">
+            <img src="<?= URL_HOST ?>Recursos/imagenes/mima-jialift.png" class="img-fluid imagen-principal">
+        </div>
+    </div>
+    <!-- Slogan centrado debajo de la imagen -->
+    <div class="container text-center">
+        <div style=" margin-top: 5rem; ;font-size: 2.5rem; font-weight: bold; color: #333; margin-bottom: 2rem;">
+            Tu tranquilidad es nuestro objetivo
+        </div>
+    </div>
+    
+    <!-- Texto descriptivo -->
+    <!-- <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div style="font-size: 1.2rem; font-weight: 500; color: #666; line-height: 1.6;">
+                    Como distribuidores oficiales nuestros productos están respaldados e impulsados por Mima. Cada equipo se comercia con una sólida garantía de un año y nuestras baterías se respaldan con garantía de 3 a 5 años.
+                    Tu satisfacción y tranquilidad son nuestras prioridades
+                </div>
+            </div>
+        </div>
+    </div> -->
     <br>
     <div class="mt-5">
         <div class="tituloAireComprimido">
@@ -29,11 +63,9 @@
         <div style="font-family: 'Montserrat';font-style: normal;font-weight: 700;font-size: 35px;line-height: 45px;text-align: center;color: #6C6A6A;">
             Autoelevadores – Apiladores – Reachs – Transpaletas - Equipos con Bateria de Litio
         </div>
-        <div class="d-flex" style="justify-content: center;gap: 20px;margin-top:5%">
-            <div><img src="<?= URL_HOST ?>Recursos/imagenes/shale1.png" class="w-100" > </div>
-            <div><img src="<?= URL_HOST ?>Recursos/imagenes/shale2.png" class="w-100" > </div>
-            <div><img src="<?= URL_HOST ?>Recursos/imagenes/shale3.png" class="w-100" > </div>
-            <div><img src="<?= URL_HOST ?>Recursos/imagenes/shale4.png" class="w-100" > </div>
+        <div class="d-grid" style="justify-content: center;gap: 20px;margin-top:5%">
+            <div><img src="<?= URL_HOST ?>Recursos/imagenes/jialift-productos-1.png" class="w-100"> </div>            
+            <div><img src="<?= URL_HOST ?>Recursos/imagenes/jialift-productos-2.png" class="w-100"> </div>
         </div>
     </div>
 </div>
@@ -47,13 +79,13 @@
         </div>
         <div class="lineaDivisionAireComprimido mt-4"></div>
         <div class="infoLineaDirectaAireComprimido mt-4">
-            <a href="https://autoelevadoresheli.com.ar" target="_blank">
-                autoelevadoresheli.com.ar
-            </a> 
+            <a href="https://www.mimaargentina.com.ar/" target="_blank">
+                https://www.mimaargentina.com.ar
+            </a>
             <br>
-            <a href="mailto:ventas.heli@indelsrl.com.ar">
-                ventas.heli@indelsrl.com.ar
-            </a> 
+            <a href="mailto:comercial@indelsrl.com.ar">
+                comercial@indelsrl.com.ar
+            </a>
         </div>
     </div>
 
@@ -70,3 +102,41 @@
 <div style="margin-top: 50px;">
 
 </div>
+
+<style>
+/* Estilos para hacer las imágenes más grandes en desktop */
+.logo-ovnisa {
+    max-height: 80px;
+}
+
+.logo-mima, .logo-jialift {
+    max-height: 60px;
+}
+
+.imagen-principal {
+    max-width: 100%;
+}
+
+/* Media query para desktop - hacer las imágenes 3 veces más grandes */
+@media (min-width: 768px) {
+    .logo-ovnisa {
+        max-height: 240px; /* 80px * 3 */
+    }
+    
+    .logo-mima, .logo-jialift {
+        max-height: 180px; /* 60px * 3 */
+    }
+    
+    .imagen-principal {
+        max-width: 100%;
+        transform: scale(1.5); /* Escalar la imagen principal 1.5x */
+    }
+}
+
+/* Para pantallas muy grandes (desktop) */
+@media (min-width: 1200px) {
+    .imagen-principal {
+        transform: scale(1.5); /* Escalar aún más en pantallas grandes */
+    }
+}
+</style>

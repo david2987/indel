@@ -18,6 +18,29 @@ a{
 }
 
 
+@keyframes parpadeo {
+    0% {
+       color: #000;
+       
+    }
+    50% {
+       color: #721c24 /* A la mitad, se vuelve invisible */
+    }
+    100% {
+       color: red; /* Al final, vuelve a ser visible */
+    }
+}
+
+.texto-parpadeante {
+    /* Opcional: Estilo básico para resaltar más */
+    color: red;
+    font-weight: bold;
+    animation-name: parpadeo; /* Nombre de la animación */
+    animation-duration: 1.5s; /* Duración de un ciclo completo (1 segundo) */
+    animation-iteration-count: infinite; /* Hace que se repita indefinidamente */
+    animation-timing-function: step-start; /* Opcional: Hace que el cambio sea instantáneo (encendido/apagado) */
+}
+
 /* DESKTOP PAGE */
 @media (min-width: 992px) {      
       .barraNavegacion {
@@ -108,7 +131,7 @@ a{
   .textInfoHome{
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 38px;
+    font-size: 25px;
     line-height: 46.32px;
     letter-spacing: 0%;
 
@@ -117,7 +140,7 @@ a{
   .textInfoHome50{
     font-family: Montserrat;
     font-weight: 800;
-    font-size: 38px;
+    font-size: 25px;
     line-height: 46.32px;
     letter-spacing: 0%;
   }
@@ -390,3 +413,275 @@ color: #FFFFFF;
         width: 100%;
         height: 100%;
     }
+
+/* FORMULARIO DE CONTACTO */
+
+.tituloContacto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #6C6A6A;
+}
+
+.textoContacto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #6C6A6A;
+}
+
+.formularioContacto {
+    background-color: #F3F0F0;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.labelFormulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6C6A6A;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.inputFormulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    border: 2px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 12px 15px;
+    transition: border-color 0.3s ease;
+}
+
+.inputFormulario:focus {
+    border-color: #FE1E1E;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(254, 30, 30, 0.25);
+}
+
+.inputFormulario::placeholder {
+    color: #D9D9D9;
+}
+
+.error-message {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+    min-height: 20px;
+}
+
+.btnEnviarFormulario {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #FE1E1E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btnEnviarFormulario:hover {
+    background-color: #FF0000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(254, 30, 30, 0.3);
+}
+
+.btnEnviarFormulario:disabled {
+    background-color: #D9D9D9;
+    color: #6C6A6A;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.textoEnvioMail {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.textoEnvioMail .alert {
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.textoEnvioMail .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.textoEnvioMail .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Ajustes para reCAPTCHA */
+.g-recaptcha {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .formularioContacto {
+        padding: 25px 20px;
+    }
+    
+    .tituloContacto {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .textoContacto {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .labelFormulario {
+        font-size: 16px;
+    }
+    
+    .btnEnviarFormulario {
+        font-size: 18px;
+        padding: 12px 40px;
+        width: 100%;
+    }
+}
+
+/* PROMOCIONES */
+
+.tituloPromociones {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #6C6A6A;
+}
+
+.textoPromociones {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6C6A6A;
+}
+
+.card-promocion {
+    background-color: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-promocion:hover {
+    border-color: #FE1E1E;
+    box-shadow: 0 4px 12px rgba(254, 30, 30, 0.2);
+    transform: translateY(-5px);
+}
+
+.imagen-promocion {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    background-color: #F3F0F0;
+}
+
+.imagen-promocion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-promocion:hover .imagen-promocion img {
+    transform: scale(1.05);
+}
+
+.contenido-promocion {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-promocion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FE1E1E;
+    margin-bottom: 12px;
+}
+
+.descripcion-promocion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6A6A;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.fecha-promocion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6C6A6A;
+    padding-top: 15px;
+    border-top: 1px solid #D9D9D9;
+    margin-top: auto;
+}
+
+/* Responsive para promociones */
+@media (max-width: 768px) {
+    .tituloPromociones {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .textoPromociones {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    
+    .imagen-promocion {
+        height: 200px;
+    }
+    
+    .titulo-promocion {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    
+    .descripcion-promocion {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

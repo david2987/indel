@@ -5,12 +5,12 @@
     <div class="carousel-item active">
       <!-- Desktop -->
       <div class="imagenBannerDesk d-none d-md-block">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner web02-final.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/banner-desk.png" 
              class="d-block w-100 img-fluid" alt="Banner escritorio">
       </div>
       <!-- Mobile -->
       <div class="imagenBannerMobile d-block d-md-none">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner mobile02.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/banner-mobile.png" 
              class="d-block w-100 img-fluid" alt="Banner mobile">
       </div>
     </div>
@@ -19,12 +19,12 @@
     <div class="carousel-item">
       <!-- Desktop -->
       <div class="imagenBannerDesk d-none d-md-block">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner web02-final.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/banner-desk.png" 
              class="d-block w-100 img-fluid" alt="Banner escritorio">
       </div>
       <!-- Mobile -->
       <div class="imagenBannerMobile d-block d-md-none">
-        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/INDEL_Banner mobile02.jpg" 
+        <img src="<?= URL_HOST ?>/Recursos/imagenes/banner/banner-mobile.png" 
              class="d-block w-100 img-fluid" alt="Banner mobile">
       </div>
     </div>

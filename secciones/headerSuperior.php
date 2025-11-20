@@ -14,10 +14,10 @@
     <link rel="icon" href="<?= URL_HOST ?>Recursos/imagenes/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">  
 </head>
-<div style=" background-color: #6C6A6A;color:#fff">
+<div style=" background-color: #ff0000;color:#fff">
     <div class="w-100 d-flex container p-3" style="height: 69px; " >
-        <div class="col-md-3">
-            <div>(0341) 4371007 | (0341) 156913541</div>        
+        <div class="col-md-4">
+            <div>(0341) 4371007 | (0341) 156913541 INDEL S.R.L.</div>        
         </div>
         <div class="col-md-5">
             <div>Constitución N° 850 – Rosario – Santa Fe. - Rep. Argentina</div>
@@ -26,9 +26,9 @@
             <!-- <div>
                 <a href="https://www.facebook.com/INDEL" class="text-white"><i class="ms-2 fab fa-facebook-f fa-xl"></i></a>
             </div> -->
-            <!-- <div>                
+            <div>                
                 <a href="https://www.instagram.com/indelautoelevadores/" class="text-white"><i class="ms-2 fab fa-instagram fa-xl"></i></a>
-            </div> -->
+            </div>
             <!-- <div>
                 <a href="https://twitter.com/Indelmecanica/" class="text-white"><i class=" ms-2  fab fa-twitter fa-xl"></i></a>
             </div> -->
